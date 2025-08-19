@@ -161,3 +161,35 @@ ul {
     background-color: var(--color-button-hover);
 }
 
+/* Faz a página ocupar 100% da altura */
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Conteúdo principal ocupa todo o espaço disponível */
+main {
+  flex: 1;
+}
+
+.footer {
+  text-align: center;
+  padding: 15px 0;
+  background-color: #4B69FD; /* cor de fundo suave */
+  color: black; /* cor do texto */
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.footer a {
+  color: orangered; /* cor do link */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
